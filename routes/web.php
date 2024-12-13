@@ -10,6 +10,8 @@ Route::get('/', function () {
 });
 
 Route::resource('team', TeamController::class);
-Route::resource('jadwal', JadwalController::class);
+Route::resource('jadwal', JadwalController::class)->only('index','cetak','create','edit','update','store','destroy');
+
+// Route::get('/jadwal',[JadwalController::class, 'index'])->name('jadwal.index');
 Route::get('/jadwal/cetak', [JadwalController::class, 'cetak'])->name('jadwal.cetak');
 

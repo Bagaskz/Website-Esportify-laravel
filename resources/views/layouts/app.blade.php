@@ -20,13 +20,13 @@
       </div>
       <ul class="nav-links">
          <li>
-            <a href="">
+            <a href="{{ route('team.index')}}">
                <i class="bx bx-box"></i>
                <span class="links_name">Tim Esports</span>
             </a>
          </li>
          <li>
-            <a href="">
+            <a href="{{ route('jadwal.index')}}">
                <i class="bx bx-list-ul"></i>
                <span class="links_name">Jadwal</span>
             </a>

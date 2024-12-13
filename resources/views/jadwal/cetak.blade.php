@@ -36,7 +36,7 @@
 </head>
 
 <body>
-  <h3>Data Categories</h3>
+  <h3>Data Jadwal</h3>
   <table class="table-data">
     <thead>
       <tr>
